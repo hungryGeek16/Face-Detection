@@ -1,5 +1,5 @@
 To run:
-Open Terminal in the folder which the above files and type
+Open Terminal in the folder which the above files are present and type
 python detect_faces.py --image (your image name).(extension) --prototxt deploy.prototxt.txt \
 	--model res10_300x300_ssd_iter_140000.caffemodel
 
