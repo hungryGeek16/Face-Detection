@@ -1,4 +1,4 @@
-# MTCNN
+# MTCNN vs OpenCV DLL
 
 
  What is **Face detection**? and **Face Recognition**? or they are one and the same?
@@ -32,19 +32,26 @@ Source:https://towardsdatascience.com/how-does-a-face-detection-program-work-usi
       OpenCV’s deep learning face detector is based on the Single Shot Detector (SSD) framework with a ResNet base network.It is basically a pre-trained dnn model whish has been trained on of lot of data and images beforehand.The .prototxt file(s) which define the model architecture (i.e., the layers themselves).The .caffemodel file which contains the weights for the actual layers.
 
 **MTCNN Detecting a single face:**
-![My friends face](/data/img1.jpg)
+<p align="center">
+    <img src="/data/img1.png", width="480">
+ </p>
 
 **It perfectly detects a single face and it even works good with crowd images:**
-![frnds](/data/img2.jpg)
+<p align="center">
+    <img src="/data/img2.png", width="480">
+ </p>
 
 
 **It detects images of animals like chimpanzees,apes and dogs:**
-![output](/data/img3.jpg)
+<p align="center">
+    <img src="/data/img3.png", width="480">
+ </p>
 
+ **Detects singles faces and it even correctly detects half faces but lag in detecting face in crowd compared to MTCNN and it only works effciently for low resolution images,**
+<p align="center">
+    <img src="/data/img4.png", width="480">
+ </p>
 
-Opencv DLL 
-          **detects singles faces and it even correctly detects half faces but lag in detecting face in crowd compared to MTCNN and it only works effciently for low resolution images,**
-
-![Images](/data/img4.jpg)
-
-![Images](/data/img5.jpg)
+<p align="center">
+    <img src="/data/img5.png", width="480">
+ </p>
