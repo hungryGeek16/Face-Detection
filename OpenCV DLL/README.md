@@ -10,6 +10,5 @@ For live detection run:
 python detect_faces_video.py --prototxt deploy.prototxt.txt \
 	--model res10_300x300_ssd_iter_140000.caffemodel
 
-You can see my outputs in my_outputs folder
-
-Source:https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
+# Credits
+https://www.pyimagesearch.com/2018/02/26/face-detection-with-opencv-and-deep-learning/
