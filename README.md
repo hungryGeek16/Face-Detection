@@ -32,19 +32,19 @@ Source:https://towardsdatascience.com/how-does-a-face-detection-program-work-usi
       OpenCV’s deep learning face detector is based on the Single Shot Detector (SSD) framework with a ResNet base network.It is basically a pre-trained dnn model whish has been trained on of lot of data and images beforehand.The .prototxt file(s) which define the model architecture (i.e., the layers themselves).The .caffemodel file which contains the weights for the actual layers.
 
 **MTCNN Detecting a single face:**
-![ivan_drawn](/uploads/aa2d08c8aa2978508a2d3670bb004e1b/ivan_drawn.jpg)
+![My friends face](/data/img1.jpg)
 
 **It perfectly detects a single face and it even works good with crowd images:**
-![frnds](/uploads/c557e8eadbf6230a49d5a803eb291b4a/frnds.jpg)
+![frnds](/data/img2.jpg)
 
 
 **It detects images of animals like chimpanzees,apes and dogs:**
-![output](/uploads/12bb6e9afc8972ad66fb0eee61ff2ed6/output.jpg)
+![output](/data/img3.jpg)
 
 
 Opencv DLL 
           **detects singles faces and it even correctly detects half faces but lag in detecting face in crowd compared to MTCNN and it only works effciently for low resolution images,**
 
-![Screenshot_from_2019-10-10_20-42-17](/uploads/948df141c796651da2ee4d2f2cd8430c/Screenshot_from_2019-10-10_20-42-17.png)
+![Images](/data/img4.jpg)
 
-![Screenshot_from_2019-10-10_19-52-02](/uploads/50e28ba3762dd70966cfa03cdc7c3206/Screenshot_from_2019-10-10_19-52-02.png)
+![Images](/data/img5.jpg)
