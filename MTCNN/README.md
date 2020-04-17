@@ -2,7 +2,7 @@
 2. Images are the outputs of inputs.
 3. Last block of code is for live detection.  
 **Some More Examples**
-`Crowd Image`
+`Crowd Image`  
 <p align="center">
     <img src="crowd.jpg", width="480">
  </p>
