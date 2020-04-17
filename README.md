@@ -33,18 +33,18 @@ Source:https://towardsdatascience.com/how-does-a-face-detection-program-work-usi
 
 **MTCNN Detecting a single face:**
 <p align="center">
-    <img src="/data/img1.png", width="480">
+    <img src="/data/img1.jpg", width="480">
  </p>
 
 **It perfectly detects a single face and it even works good with crowd images:**
 <p align="center">
-    <img src="/data/img2.png", width="480">
+    <img src="/data/img2.jpg", width="480">
  </p>
 
 
 **It detects images of animals like chimpanzees,apes and dogs:**
 <p align="center">
-    <img src="/data/img3.png", width="480">
+    <img src="/data/img3.jpg", width="480">
  </p>
 
  **Detects singles faces and it even correctly detects half faces but lag in detecting face in crowd compared to MTCNN and it only works effciently for low resolution images,**
